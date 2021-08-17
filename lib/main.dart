@@ -14,7 +14,7 @@ void main(List<String> args) {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(backgroundColor: Colors.white,
+      home: Scaffold(
       body: Home(),
       ) 
     );
