@@ -16,8 +16,8 @@ class _Roate extends State<Roate>
   void initState() {
     super.initState();
     _controller =
-        AnimationController(duration: Duration(seconds: 5), vsync: this);
-          _controller.forward();
+        AnimationController(duration: Duration(seconds: 5), vsync: this)
+                    ..repeat();
   }
 
   @override
